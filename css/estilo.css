@@ -1,0 +1,94 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: gray;
+    background-size: cover;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+ul li {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: rgb(0, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 10px 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(0, 132, 255);
+}
+
+
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+
+
+}
+
+.background {
+    position: relative;
+    background: url(../img/1366_2000.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+nav:hover {
+    background-color: #adc2d8;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.highlighted {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #ff9800;
+}
+
+.content {
+    position:  relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Imagen {
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+
+}
